@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140" role="img" aria-labelledby="title desc">
+  <title id="title">Símbolo Nutrion</title>
+  <desc id="desc">Escudo bordô com folhas douradas discretas ao fundo e um N branco ornamentado, inspirado em brasões medievais.</desc>
+  <defs>
+    <clipPath id="shield-interior"><path d="M70 20c15 7 29 10 42 12v40c0 20-14 35-42 48-28-13-42-28-42-48V32c13-2 27-5 42-12Z"/></clipPath>
+    <g id="leaf"><path d="M0 0c5-7 14-8 19-1C15 6 6 8 0 0Z" fill="#B78346"/><path d="M2 0c5 0 11-1 15-1" fill="none" stroke="#65131F" stroke-width="1"/></g>
+  </defs>
+  <path d="M70 7c17 10 34 15 56 17v49c0 27-17 46-56 61-39-15-56-34-56-61V24C36 22 53 17 70 7Z" fill="#8C1C2C"/>
+  <g clip-path="url(#shield-interior)" opacity=".45">
+    <use href="#leaf" transform="translate(34 37) rotate(-28)"/>
+    <use href="#leaf" transform="translate(77 29) rotate(18) scale(.82)"/>
+    <use href="#leaf" transform="translate(102 49) rotate(78) scale(.88)"/>
+    <use href="#leaf" transform="translate(32 72) rotate(-64) scale(.78)"/>
+    <use href="#leaf" transform="translate(95 83) rotate(30) scale(.76)"/>
+    <use href="#leaf" transform="translate(39 105) rotate(-12) scale(.88)"/>
+    <use href="#leaf" transform="translate(72 111) rotate(-32) scale(.72)"/>
+  </g>
+  <path d="M70 16c16 8 31 13 47 15v42c0 22-14 38-47 52-33-14-47-30-47-52V31c16-2 31-7 47-15Z" fill="none" stroke="#B78346" stroke-width="2"/>
+  <g fill="#F6E9D4">
+    <path d="M47 46h11v43H47zM85 46h11v43H85z"/>
+    <path d="M51 43h10l34 42v12H85L51 54Z"/>
+    <path d="M43 43c5-6 13-7 20 0l-3 5H46ZM80 43c7-7 15-6 21 0l-5 5H84ZM44 88h17l4 8H40ZM82 88h17l4 8H78Z"/>
+  </g>
+  <g fill="none" stroke="#F6E9D4" stroke-width="2.2" stroke-linecap="round">
+    <path d="M45 40c-5-4-4-8 1-10M99 40c5-4 4-8-1-10"/>
+    <path d="M43 91c-7 0-9-4-8-8M100 91c7 0 9-4 8-8"/>
+  </g>
+</svg>

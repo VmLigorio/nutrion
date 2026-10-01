@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#8C1C2C" />
+    <title>Meu portal · Nutrion</title>
+    <link rel="icon" href="/outputs/nutrion-brasao-transparente.png" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/auth.css" />
+  </head>
+  <body class="portal-page">
+    <header class="portal-header">
+      <a class="auth-brand" href="/"><img src="/outputs/nutrion-brasao-transparente.png" alt="" /><span>NUTRION</span></a>
+      <button id="portalLogout" class="button button-quiet">Sair</button>
+    </header>
+    <main class="portal-main">
+      <div class="eyebrow">SEU ACOMPANHAMENTO</div>
+      <h1>Olá, <span id="portalPatientName">paciente</span></h1>
+      <p class="page-subtitle">Informações do seu acompanhamento com <strong id="portalProfessional"></strong>.</p>
+
+      <section class="portal-section" aria-labelledby="portalProfileTitle">
+        <div class="portal-section-heading"><div><div class="section-kicker">SEUS DADOS</div><h2 id="portalProfileTitle">Meu perfil</h2></div><span class="read-only-badge">Somente visualização</span></div>
+        <div id="portalProfile" class="portal-info-groups"></div>
+      </section>
+
+      <section class="portal-section" aria-labelledby="portalAppointmentsTitle">
+        <div class="portal-section-heading"><div><div class="section-kicker">AGENDA</div><h2 id="portalAppointmentsTitle">Minhas consultas agendadas</h2></div></div>
+        <div id="portalAppointments" class="portal-record-list"></div>
+      </section>
+
+      <section class="portal-section" aria-labelledby="portalConsultationsTitle">
+        <div class="portal-section-heading"><div><div class="section-kicker">HISTÓRICO</div><h2 id="portalConsultationsTitle">Consultas realizadas</h2></div></div>
+        <div id="portalConsultations" class="portal-record-list"></div>
+      </section>
+
+      <section class="portal-section" aria-labelledby="portalPlansTitle">
+        <div class="portal-section-heading"><div><div class="section-kicker">ORIENTAÇÕES NUTRICIONAIS</div><h2 id="portalPlansTitle">Planos alimentares</h2></div></div>
+        <div id="portalPlans" class="portal-plans"></div>
+        <div class="empty-state hidden" id="portalEmpty"><strong>Nenhum plano publicado ainda</strong><p>Quando sua nutricionista publicar um plano, ele aparecerá aqui.</p></div>
+      </section>
+
+      <div class="prototype-note"><span>✳</span><div><strong>Dados para consulta</strong><p>Este portal permite visualizar as informações registradas pela nutricionista, sem editá-las. Para corrigir ou atualizar um dado, entre em contato com ela.</p></div></div>
+    </main>
+    <script src="/portal.js"></script>
+  </body>
+</html>
