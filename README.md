@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nutrion
 
 MVP local concluído para demonstração e validação: nutricionistas acompanham pacientes, consultas, agenda e planos alimentares. O portal do paciente permite visualizar o próprio perfil, medidas, histórico, agenda e planos publicados, sem editar os registros.
@@ -63,3 +64,6 @@ Validar com nutricionistas e pacientes, definir os requisitos operacionais de pr
 - O portal do paciente mostra apenas planos publicados vinculados ao convite daquele paciente.
 - O histórico publicado é preservado em versões.
 - Medidas, relatos e comparações são registros contextuais; o sistema não formula diagnóstico nem recomenda condutas.
+=======
+# nutrion
+>>>>>>> 1eba6882eb21467bd268675caed88a1b21215a7d
